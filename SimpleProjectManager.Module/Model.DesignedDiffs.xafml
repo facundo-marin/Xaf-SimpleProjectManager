@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="SimpleProjectManager">
+  <BOModel>
+    <Class Name="SimpleProjectManager.Module.BusinessObjects.Marketing.Customer" ObjectCaptionFormat="{0:FullName}" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="Planning">
+        <Items>
+          <Item Id="@38dd1521-4ea8-4561-975e-6cdc5897ff13" Caption="Employee" ViewId="Person_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="22.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>
